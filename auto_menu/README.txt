@@ -1,9 +1,9 @@
-# Auto Menu
+Auto Menu
 
 Auto Menu is a simple Drupal module to auto-create/update disabled menu items
 for selected content types.
 
-## Use case
+Use case
 
 Menu items are useful in that they are designed to provide a basic
 hierarchical structure to the site, even when they're disabled.  This includes
@@ -22,12 +22,12 @@ inefficient to the content-management workflow.
 This module should not be used where the user is expected to have control over
 menu items as any customised settings are overwritten.
 
-## Functions
+Functions
 
 Auto Menu automatically creates menu items for the selected content types even
 when the user has no administer menus permissions.
 
-## Usage
+Usage
 
 0. Enable the module.
 1. Within the content type, in the Menu Settings option, select the appropriate
@@ -36,7 +36,7 @@ when the user has no administer menus permissions.
 3. Select the content types to provide automatically disabled menu items, and
    select 'Save configuration'.
 
-## Limitations
+Limitations
 
 Menu item titles are reflections of the node's title at the time of creations,
 and update to match the menu item when the node's title is updated.
@@ -46,11 +46,11 @@ are ignored and the menu item is created anyway.
 
 Of course, this module depends on the Menu module being enabled.
 
-## Alternatives
+Alternatives
 
 Should you need to offer users the ability to disable nodes manually in the node
 form, the Disable Node Menu Item[1] offers this.
 
-## References
+References
 
 1. https://drupal.org/project/disable_node_menu_item
