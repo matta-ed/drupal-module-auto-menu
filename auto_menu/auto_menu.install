@@ -4,6 +4,7 @@
  * Simple Drupal module to auto-create/update disabled menu items for selected
  * content types.
  *
+ * @copyright Copyright (c) 2014, The University of Edinburgh
  * @author Matt Burns <matt.burns@ed.ac.uk>
  * @version 1.0.0
  * @package SOPA
