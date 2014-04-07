@@ -1,7 +1,7 @@
 name = Auto Menu
 description = Auto-create/update disabled menu items for selected content types. Includes a simple admin interface.
 core = 7.x
-version = 7.x-0.0-dev
+version = 7.x-1.0
 package = User interface
 dependencies[] = menu
 configure = admin/structure/menu/auto_menu
