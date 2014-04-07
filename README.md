@@ -10,22 +10,25 @@ hierarchical structure to the site, even when they're disabled.  This includes
 breadcrumbs.
 
 Drupal doesn't, by default, create menu items for nodes.  Even when a menu item
-is (or allowed) to be created, the menu item is *always* enabled.
+is (or is allowed) to be created, the menu item is *always* enabled.
 
 This isn't always required for content types that are essentially being used as
 'records' for views, such as News Articles, Events, etc., where having each
-node as a menu item could not only make the front-end views of menus unweildy,
+node as a menu item could not only make the front-end views of menus unwieldy,
 but having to round-trip to the menu admin (even if the user has such
 permissions) to disable the menu item is not only counter-intuitive but
 inefficient to the content-management workflow.
 
-This module should not be used where the user is expected to have control over
-menu items as any customised settings are overwritten.
+This module should not be used where the user is expected to have direct control
+over menu items as any customised settings are overwritten.
 
 ## Functions
 
-Auto Menu automatically creates menu items for the selected content types even
-when the user has no administer menus permissions.
+Auto Menu automatically creates or updates menu items for the selected content
+types even when the user has no administer menus permissions.
+
+The module provides a simple administrative interface for selecting the content
+types that the above functionality is applied to.
 
 ## Usage
 
@@ -38,8 +41,8 @@ when the user has no administer menus permissions.
 
 ## Limitations
 
-Menu item titles are reflections of the node's title at the time of creations,
-and update to match the menu item when the node's title is updated.
+Menu item titles are reflections of the node's title at the time of creation,
+and are updated to match the menu item when the node's title is updated.
 
 When a user has access to the menu item part of the node form, the values here
 are ignored and the menu item is created anyway.
@@ -49,7 +52,7 @@ Of course, this module depends on the Menu module being enabled.
 ## Alternatives
 
 Should you need to offer users the ability to disable nodes manually in the node
-form, the Disable Node Menu Item[1] offers this.
+form on a node-by-node basis, the Disable Node Menu Item[1] offers this.
 
 ## References
 
