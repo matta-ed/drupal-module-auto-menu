@@ -1,6 +1,8 @@
 <?php
 
 /**
+ * SOPA Auto Menu
+ *
  * Simple Drupal module to auto-create/update disabled menu items for selected
  * content types.
  *
@@ -8,7 +10,7 @@
  * @author Matt Burns <matt.burns@ed.ac.uk>
  * @version 1.0.0
  * @package SOPA
- * @subpackage Auto Menu
+ * @subpackage SOPA Auto Menu
  */
 
 /**
@@ -18,8 +20,8 @@
  * This needs to run after the menu module (a dependency) has done anything
  * that it needs to do.
  */
-if (! function_exists('auto_menu_install')) {
-  function auto_menu_install() {
+if (! function_exists('sopa_auto_menu_install')) {
+  function sopa_auto_menu_install() {
 
       // Get the 'weight' of the existing menu module.
       $weight = db_select('system', 's')
@@ -32,7 +34,7 @@ if (! function_exists('auto_menu_install')) {
       // the menu module.
       db_update('system')
         ->fields(array('weight' => $weight + 1))
-        ->condition('name', 'auto_menu', '=')
+        ->condition('name', 'sopa_auto_menu', '=')
         ->execute();
 
   }

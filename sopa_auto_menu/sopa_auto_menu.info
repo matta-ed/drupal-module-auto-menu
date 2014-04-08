@@ -1,7 +1,7 @@
-name = Auto Menu
+name = SOPA Auto Menu
 description = Auto-create/update disabled menu items for selected content types. Includes a simple admin interface.
 core = 7.x
 version = 7.x-1.0
-package = User interface
+package = SOPA
 dependencies[] = menu
-configure = admin/structure/menu/auto_menu
+configure = admin/structure/menu/sopa_auto_menu

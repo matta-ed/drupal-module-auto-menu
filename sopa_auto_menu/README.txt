@@ -1,7 +1,7 @@
-Auto Menu
+SOPA Auto Menu
 
-Auto Menu is a simple Drupal module to auto-create/update disabled menu items
-for selected content types.
+SOPA Auto Menu is a simple Drupal module to auto-create/update disabled menu
+items for selected content types.
 
 Use case
 
@@ -24,8 +24,8 @@ over menu items as any customised settings are overwritten.
 
 Functions
 
-Auto Menu automatically creates or updates menu items for the selected content
-types even when the user has no administer menus permissions.
+SOPA Auto Menu automatically creates or updates menu items for the selected
+content types even when the user has no administer menus permissions.
 
 The module provides a simple administrative interface for selecting the content
 types that the above functionality is applied to.
@@ -35,7 +35,7 @@ Usage
 0. Enable the module.
 1. Within the content type, in the Menu Settings option, select the appropriate
    Available menu, and default parent item.
-2. In the menu administration page, select the "Auto Menu" panel.
+2. In the menu administration page, select the "SOPA Auto Menu" panel.
 3. Select the content types to provide automatically disabled menu items, and
    select 'Save configuration'.
 
